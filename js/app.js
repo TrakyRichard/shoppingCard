@@ -12,6 +12,7 @@ function buyCourse(e){
         //read the course value
      const course = e.target.parentElement.parentElement;
         getCourseInfo(course);
+        alert('item added to the cart')
     }
 }};
 
